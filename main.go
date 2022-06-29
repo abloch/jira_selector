@@ -5,25 +5,30 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
-	"time"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
 )
 
 var app *tview.Application
-var list *tview.List
-var key, val string
+var table *tview.Table
+var selected map[string]string
 
-func handler() {
-	ind := list.GetCurrentItem()
-	key, val = list.GetItemText(ind)
-	time.Sleep(1 * time.Second)
+func handler(row, col int) {
+	key := table.GetCell(row, 0).Text
+	val := table.GetCell(row, 2).Text
+	selected = make(map[string]string)
+	selected[key] = val
 	app.Stop()
 }
-func main() {
 
+func terminate(key tcell.Key) {
+	app.Stop()
+}
+
+func readInput() map[string]string {
 	stdin := ""
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
@@ -33,26 +38,47 @@ func main() {
 	var d map[string]string
 	err := json.Unmarshal([]byte(stdin), &d)
 	if err != nil {
-		panic(err)
+		log.Fatal(fmt.Errorf("[Error]: input json was not an object of string keys and values:%v", err))
+	}
+	return d
+}
+
+func DrawTable(inputs map[string]string) map[string]string {
+	app = tview.NewApplication().EnableMouse(true)
+	table = tview.NewTable().SetSelectable(true, false) //.SetBorders(true)
+
+	rowIndex := 0
+	for k, v := range inputs {
+		cell0 := tview.NewTableCell(k)
+		cell0.SetTextColor(tcell.ColorAntiqueWhite).SetBackgroundColor(tcell.ColorDarkBlue)
+
+		cell1 := tview.NewTableCell(v)
+		cell1.SetTextColor(tcell.ColorGreen)
+
+		table = table.InsertRow(rowIndex)
+		table = table.SetCell(rowIndex, 0, cell0)
+		table = table.SetCell(rowIndex, 2, cell1)
+
+		mycell := tview.NewTableCell(" ")
+		table.SetCell(rowIndex, 1, mycell)
+		rowIndex += 1
 	}
 
-	underlineStyle := tcell.Style{}.Underline(true)
-	app = tview.NewApplication()
-	list = tview.NewList().SetMainTextStyle(underlineStyle)
-
-	for k, v := range d {
-		list.AddItem(k, v, ' ', handler)
-	}
-	list.AddItem("Quit", "Press to exit", 'q', func() {
-		app.Stop()
-	})
-	if err := app.SetRoot(list, true).EnableMouse(true).Run(); err != nil {
-		panic(err)
+	table.SetSelectedFunc(handler)
+	table.SetDoneFunc(terminate)
+	if err := app.SetRoot(table, true).EnableMouse(true).Run(); err != nil {
+		log.Fatal(fmt.Errorf("[Error]: could not display application: %v", err))
 	}
 
-	ret, err := json.Marshal(map[string]string{key: val})
+	return selected
+}
+
+func main() {
+	inputs := readInput()
+	selected := DrawTable(inputs)
+	ret, err := json.Marshal(selected)
 	if err != nil {
-		panic(err)
+		log.Fatal(fmt.Errorf("[Error]: could not json-marshal result: %v", err))
 	}
 	fmt.Println(string(ret))
 }
