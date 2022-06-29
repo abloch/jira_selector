@@ -1,0 +1,2 @@
+#!/bin/bash
+cat tasks  | jq ' [.issues[]] | map ( {(.key) : (.fields.summary)})  | add' | go run main.go

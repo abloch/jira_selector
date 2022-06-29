@@ -1,0 +1,367 @@
+{
+    "expand": "schema,names",
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "assignee": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "created": "2022-06-28T00:30:30.792-0700",
+                "issuetype": {
+                    "avatarId": 10303,
+                    "description": "Bugs track problems or errors.",
+                    "entityId": "86c03cf5-d551-4844-aa18-18b5eb1ff6e9",
+                    "hierarchyLevel": 0,
+                    "iconUrl": "https://kubiya.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "id": "10018",
+                    "name": "Bug",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/issuetype/10018",
+                    "subtask": false
+                },
+                "priority": {
+                    "iconUrl": "https://kubiya.atlassian.net/images/icons/priorities/medium.svg",
+                    "id": "3",
+                    "name": "Medium",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/priority/3"
+                },
+                "reporter": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "status": {
+                    "description": "",
+                    "iconUrl": "https://kubiya.atlassian.net/",
+                    "id": "10025",
+                    "name": "Done",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/status/10025",
+                    "statusCategory": {
+                        "colorName": "green",
+                        "id": 3,
+                        "key": "done",
+                        "name": "Done",
+                        "self": "https://kubiya.atlassian.net/rest/api/2/statuscategory/3"
+                    }
+                },
+                "summary": "first conversation message arrives twice",
+                "updated": "2022-06-28T07:29:15.713-0700"
+            },
+            "id": "10251",
+            "key": "PLAT-93",
+            "self": "https://kubiya.atlassian.net/rest/api/2/issue/10251"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "assignee": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "created": "2022-06-28T00:27:13.295-0700",
+                "issuetype": {
+                    "avatarId": 10303,
+                    "description": "Bugs track problems or errors.",
+                    "entityId": "86c03cf5-d551-4844-aa18-18b5eb1ff6e9",
+                    "hierarchyLevel": 0,
+                    "iconUrl": "https://kubiya.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "id": "10018",
+                    "name": "Bug",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/issuetype/10018",
+                    "subtask": false
+                },
+                "priority": {
+                    "iconUrl": "https://kubiya.atlassian.net/images/icons/priorities/medium.svg",
+                    "id": "3",
+                    "name": "Medium",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/priority/3"
+                },
+                "reporter": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "status": {
+                    "description": "",
+                    "iconUrl": "https://kubiya.atlassian.net/",
+                    "id": "10023",
+                    "name": "To Do",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/status/10023",
+                    "statusCategory": {
+                        "colorName": "blue-gray",
+                        "id": 2,
+                        "key": "new",
+                        "name": "To Do",
+                        "self": "https://kubiya.atlassian.net/rest/api/2/statuscategory/2"
+                    }
+                },
+                "summary": "conversation order of inputs is not respected",
+                "updated": "2022-06-28T01:37:26.734-0700"
+            },
+            "id": "10247",
+            "key": "PLAT-89",
+            "self": "https://kubiya.atlassian.net/rest/api/2/issue/10247"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "assignee": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "created": "2022-06-27T23:35:50.207-0700",
+                "issuetype": {
+                    "avatarId": 10303,
+                    "description": "Bugs track problems or errors.",
+                    "entityId": "86c03cf5-d551-4844-aa18-18b5eb1ff6e9",
+                    "hierarchyLevel": 0,
+                    "iconUrl": "https://kubiya.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "id": "10018",
+                    "name": "Bug",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/issuetype/10018",
+                    "subtask": false
+                },
+                "priority": {
+                    "iconUrl": "https://kubiya.atlassian.net/images/icons/priorities/medium.svg",
+                    "id": "3",
+                    "name": "Medium",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/priority/3"
+                },
+                "reporter": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "status": {
+                    "description": "",
+                    "iconUrl": "https://kubiya.atlassian.net/",
+                    "id": "10024",
+                    "name": "In Progress",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/status/10024",
+                    "statusCategory": {
+                        "colorName": "yellow",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "name": "In Progress",
+                        "self": "https://kubiya.atlassian.net/rest/api/2/statuscategory/4"
+                    }
+                },
+                "summary": "workflow termination does not trigger a slack message",
+                "updated": "2022-06-28T02:08:13.787-0700"
+            },
+            "id": "10246",
+            "key": "PLAT-88",
+            "self": "https://kubiya.atlassian.net/rest/api/2/issue/10246"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "assignee": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "created": "2022-06-15T05:24:32.517-0700",
+                "issuetype": {
+                    "avatarId": 10318,
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "entityId": "039a8c5b-427e-4108-92ae-00c17213df20",
+                    "hierarchyLevel": 0,
+                    "iconUrl": "https://kubiya.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "id": "10017",
+                    "name": "Task",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/issuetype/10017",
+                    "subtask": false
+                },
+                "priority": {
+                    "iconUrl": "https://kubiya.atlassian.net/images/icons/priorities/medium.svg",
+                    "id": "3",
+                    "name": "Medium",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/priority/3"
+                },
+                "reporter": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "status": {
+                    "description": "",
+                    "iconUrl": "https://kubiya.atlassian.net/",
+                    "id": "10025",
+                    "name": "Done",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/status/10025",
+                    "statusCategory": {
+                        "colorName": "green",
+                        "id": 3,
+                        "key": "done",
+                        "name": "Done",
+                        "self": "https://kubiya.atlassian.net/rest/api/2/statuscategory/3"
+                    }
+                },
+                "summary": "add kubiya enhancements to direktiv workflows",
+                "updated": "2022-06-27T22:25:11.349-0700"
+            },
+            "id": "10232",
+            "key": "PLAT-75",
+            "self": "https://kubiya.atlassian.net/rest/api/2/issue/10232"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "assignee": {
+                    "accountId": "62927b822b90b90069b77f76",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png",
+                        "48x48": "https://secure.gravatar.com/avatar/bbb0413d376253858e2531bfa5620840?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-2.png"
+                    },
+                    "displayName": "Akiva Bloch",
+                    "emailAddress": "akiva@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=62927b822b90b90069b77f76",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "created": "2022-05-28T09:31:26.339-0700",
+                "issuetype": {
+                    "avatarId": 10315,
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "entityId": "5030e626-6fab-43ea-81b3-97653208fe31",
+                    "hierarchyLevel": 0,
+                    "iconUrl": "https://kubiya.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "id": "10016",
+                    "name": "Story",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/issuetype/10016",
+                    "subtask": false
+                },
+                "priority": {
+                    "iconUrl": "https://kubiya.atlassian.net/images/icons/priorities/medium.svg",
+                    "id": "3",
+                    "name": "Medium",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/priority/3"
+                },
+                "reporter": {
+                    "accountId": "616bbaaaa989710070bb10ae",
+                    "accountType": "atlassian",
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://secure.gravatar.com/avatar/5bb17324fa7b1061ca742df586f23151?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSA-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/5bb17324fa7b1061ca742df586f23151?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSA-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/5bb17324fa7b1061ca742df586f23151?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSA-5.png",
+                        "48x48": "https://secure.gravatar.com/avatar/5bb17324fa7b1061ca742df586f23151?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSA-5.png"
+                    },
+                    "displayName": "Shaked Askayo",
+                    "emailAddress": "shaked@kubiya.ai",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/user?accountId=616bbaaaa989710070bb10ae",
+                    "timeZone": "America/Los_Angeles"
+                },
+                "status": {
+                    "description": "",
+                    "iconUrl": "https://kubiya.atlassian.net/",
+                    "id": "10023",
+                    "name": "To Do",
+                    "self": "https://kubiya.atlassian.net/rest/api/2/status/10023",
+                    "statusCategory": {
+                        "colorName": "blue-gray",
+                        "id": 2,
+                        "key": "new",
+                        "name": "To Do",
+                        "self": "https://kubiya.atlassian.net/rest/api/2/statuscategory/2"
+                    }
+                },
+                "summary": "Dynamic forms - modals + natural language (conversation)",
+                "updated": "2022-06-07T02:55:17.021-0700"
+            },
+            "id": "10160",
+            "key": "PLAT-12",
+            "self": "https://kubiya.atlassian.net/rest/api/2/issue/10160"
+        }
+    ],
+    "maxResults": 100,
+    "total": 5
+}
